@@ -30,6 +30,13 @@ Put a trusted, redistributable `ffmpeg.exe` in `vendor/windows/ffmpeg.exe`, then
 ## Codec notes
 
 MP4/MOV/MKV/AVI outputs use MPEG-4 video and AAC audio for broad playback compatibility. WEBM outputs use VP9 and Opus. Some source files or FFmpeg builds may not support a requested codec; the app shows FFmpeg's error instead of silently creating junk.
+
+## License
+
+Video Converter is distributed under the GNU General Public License, version
+3. The included FFmpeg build enables GPL components; the corresponding source
+and build configuration are documented in `THIRD_PARTY_NOTICES.md`.
+
 ## Support
 
 Found a problem? [Report it on GitHub](https://github.com/401comp/Video-Converter/issues/new?template=bug_report.md).
